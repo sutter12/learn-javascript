@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Changing</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <button id="change" onclick="changeText('demo1')" onmouseover="changeText('demo2')">Change</button>
+
+    <div id="test1">
+        <p id="demo1">This is demo 1 text; FUN!!!</p>
+        <button onclick="hideText('test2', 'test1')">Test1</button>
+        <button onclick="largeText()">Large Text</button>
+    </div>
+
+    <div id="test2">
+        <p id="demo2">Demo 2 text; Spongebob</p>
+        <button onclick="hideText('test1', 'test2')">Test2</button>
+    </div>
+
+    <button onclick="showAllText()">Show All!</button>
+    <button onclick="hideAllText()">Hide All!</button>
+</body>
+
+</html>
