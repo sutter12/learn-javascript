@@ -30,3 +30,11 @@ function hideAllText() {
         document.getElementById(ids[i]).style.display = "none";
     }//end for i loop
 }//end hideAllText
+
+function welcome(ID) {
+    var spot = document.getElementById(ID);
+
+    if(spot.innerHTML == "Hello") {
+        spot.innerHTML = "Hello World";
+    }//end if statement
+}//end welcome
