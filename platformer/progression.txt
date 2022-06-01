@@ -1,0 +1,9 @@
+part 1
+1. index.html
+2. main.js
+3. drawer.js
+
+part 2
+4. player.js
+5. wall.js
+6. keys.js
