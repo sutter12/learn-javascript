@@ -32,6 +32,7 @@ function noStroke() {
 }//end noStroke
 
 function background(r, g, b) {
+    noStroke();
     fillColor(r, g, b);
     rectangle(0, 0, width, height);
 }//end background
