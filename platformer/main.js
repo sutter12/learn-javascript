@@ -45,11 +45,11 @@ var objects = [];
 for(var i=0; i<32; i++) {
     new wall(i*32, 400);
 }//end for i loop
-
-window.onresize();
+new wall(15*32, 400-32);
 
 var player = new Player(50, 50);
 
+window.onresize();
 
 function gameLoop() {
     // console.log("Hello"); // use to see fps
