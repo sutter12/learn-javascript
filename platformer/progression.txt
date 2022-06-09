@@ -7,3 +7,6 @@ part 2
 4. player.js
 5. wall.js
 6. keys.js
+
+part 3
+bbox.js
